@@ -19,7 +19,7 @@ const PremiumButton = ({ icon: Icon, name }) => {
       {Icon && <Icon className="w-5 h-5" />}
       {name}
     </button>
-    {hovered && (<div className='absolute rounded whitespace-nowrap bottom-full p-3 left-3/4 border border-white bg-gray-800'><p className='text-sm'>{name} is only for pro and premium users</p></div>)}
+    {hovered && (<div className='absolute rounded whitespace-nowrap bottom-full p-3  border border-white bg-gray-800'><p className='text-sm'>{name} is only for pro and premium users</p></div>)}
     </div>
     </>);
 };
