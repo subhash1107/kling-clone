@@ -1,0 +1,26 @@
+/* styles/Button.module.css */
+.badgeAnimation {
+    animation: badgePulse 2s ease-in-out infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes badgePulse {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(-20deg) scale(0.7);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
+  }
+  
+  /* Optional: Stop animation on hover */
+  .badgeAnimation:hover {
+    animation-play-state: paused;
+  }
+
+  .new{
+    color: blue
+  }
