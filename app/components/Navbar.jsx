@@ -27,7 +27,7 @@ export default function Navbar() {
         {/* Hidden after md */}
         <button className="hidden md:flex relative items-center px-4 py-2 text-sm font-medium text-black bg-gradient-to-r from-green-300 to-blue-500 rounded-full hover:from-cyan-500 hover:to-blue-600">
           API Calls
-          <span className="absolute top-0 right-0 px-1.5 py-0.5 text-xs font-semibold text-white bg-red-600 rounded-full -mt-2 -mr-2">
+          <span className={`absolute top-0 right-0 px-1.5 py-0.5 text-xs font-semibold text-white bg-red-600 rounded-full -mt-2 -mr-2 ${styles.badgeAnimation}`}>
             NEW
           </span>
         </button>
